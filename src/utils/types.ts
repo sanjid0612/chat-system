@@ -26,4 +26,13 @@ export type MsgProfileProps = {
   lastMsg: string;
   totalMsg?: number;
 };
+export type CommonProfileProps = {
+  image?: string;
+  name: string;
+  details?: string;
+  groupClass?: string;
+  imgClass?: string;
+  nameClass?: string;
+  detailClass?: string;
+};
 

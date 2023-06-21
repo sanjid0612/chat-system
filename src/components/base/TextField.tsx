@@ -93,9 +93,9 @@ const TextField: FC<inputProps> = ({
             placeholder={placeholder}
             value={value}
             id={identifier}
-            className={`w-full border rounded-md py-4 text-base ${
-              prefixIcon ? "pl-[52px]" : "pl-5"
-            } pr-5 relative z-10 ${inputClass} `}
+            className={`w-full bgAsh border rounded-full py-2 text-[17px] leading-5 ${
+              prefixIcon ? "pl-[52px]" : "pl-3.5"
+            } pr-1.5 relative z-10 ${inputClass} `}
           />
           {suffixIcon && (
             <button
@@ -103,9 +103,9 @@ const TextField: FC<inputProps> = ({
               onClick={() => {
                 suffixCb && suffixCb();
               }}
-              className="absolute z-50 right-5 top-1/2 -translate-y-1/2 w-6 h-6 px-1"
+              className="absolute z-50 right-5 top-1/2 -translate-y-1/2 w-6 h-6"
             >
-              <i className={`text-gray text-[16px] ${suffixIcon}`}></i>
+              <i className={`text-red-400 text-[16px] ${suffixIcon}`}></i>
             </button>
           )}
         </div>

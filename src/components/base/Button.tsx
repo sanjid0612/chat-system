@@ -34,7 +34,7 @@ const Button: FC<buttonProps> = ({
       type={btnType}
       onClick={actionCb}
       className={`w-full font-medium flex justify-center items-center ${
-        icon ? "px-0 py-0" : ""
+        icon ? "px-0 py-0 w-auto" : ""
       } ${suffixIcon ? "flex gap-x-2" : ""} ${
         prefixIcon ? "flex gap-x-2" : ""
       } ${

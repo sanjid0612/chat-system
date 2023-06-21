@@ -16,7 +16,7 @@ const Header = () => {
         </button>
       </div>
       {/* <MsgSideBar /> */}
-      <MsgSideBar2 />
+      {/* <MsgSideBar2 /> */}
     </div>
   );
 };
