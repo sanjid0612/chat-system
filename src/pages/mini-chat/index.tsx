@@ -84,7 +84,12 @@ const MiniChatPage = () => {
           icon="fas fa-microphone text-red-400 text-[18px] mr-[3px]"
           actionCb={() => {}}
         />
-        <TextField onChangeCb={() => {}} identifier="" placeholder="Aa" />
+        <TextField
+          onChangeCb={() => {}}
+          identifier=""
+          placeholder="Aa"
+          suffixIcon="fa-sharp fa-solid fa-face-smile"
+        />
         <Button
           icon="fas fa-thumbs-up text-red-400 text-[18px] mr-[3px]"
           actionCb={() => {}}

@@ -93,7 +93,7 @@ const TextField: FC<inputProps> = ({
             placeholder={placeholder}
             value={value}
             id={identifier}
-            className={`w-full bgAsh border rounded-full py-2 text-[17px] leading-5 ${
+            className={`w-full bgAsh rounded-full py-2 text-[17px] leading-5 ${
               prefixIcon ? "pl-[52px]" : "pl-3.5"
             } pr-1.5 relative z-10 ${inputClass} `}
           />
@@ -103,9 +103,9 @@ const TextField: FC<inputProps> = ({
               onClick={() => {
                 suffixCb && suffixCb();
               }}
-              className="absolute z-50 right-5 top-1/2 -translate-y-1/2 w-6 h-6"
+              className="absolute z-50 right-1.5 top-1/2 -translate-y-1/2 w-6 h-6"
             >
-              <i className={`text-red-400 text-[16px] ${suffixIcon}`}></i>
+              <i className={`text-red-400 text-[24px] ${suffixIcon}`}></i>
             </button>
           )}
         </div>
