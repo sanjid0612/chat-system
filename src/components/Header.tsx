@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./base/Button";
 import MsgSideBar from "./common/MsgSideBar";
+import MsgSideBar2 from "./common/MsgSideBar2";
 
 const Header = () => {
   return (
@@ -14,7 +15,8 @@ const Header = () => {
           <i className="fa-regular fa-comment-dots text-red-400 text-[32px]"></i>
         </button>
       </div>
-      <MsgSideBar />
+      {/* <MsgSideBar /> */}
+      <MsgSideBar2 />
     </div>
   );
 };

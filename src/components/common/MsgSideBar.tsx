@@ -3,8 +3,8 @@ import Button from "../base/Button";
 
 const MsgSideBar = () => {
   return (
-    <div className="h-screen w-[485px] flex flex-col justify-start items-center bg-white shadow pt-[26px] px-[19px]">
-      <p className="flex justify-center items-center h-full text-2xl leading-9 font-[500] text-center text-red-400">
+    <div className="h-screen w-[485px] flex flex-col justify-start items-center bg-white shadow py-[26px] px-[19px]">
+      <p className="flex justify-center items-center h-full text-2xl leading-9 font-medium text-center text-red-400">
         No Message Found
       </p>
       <Button
