@@ -8,6 +8,7 @@ const AudioCall = () => {
       title="Calling...."
       closeCb={() => {}}
       callEndCb={() => {}}
+      hasCallBtn={true}
       groupClass="!pt-[151px] !pb-[384px]"
     >
       <CommonProfile

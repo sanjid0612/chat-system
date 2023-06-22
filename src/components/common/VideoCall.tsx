@@ -9,6 +9,7 @@ const VideoCall = () => {
       title="Calling...."
       closeCb={() => {}}
       callEndCb={() => {}}
+      hasCallBtn={true}
       groupClass="pr-[89px]"
     >
       <div className="flex flex-row justify-end gap-x-8 ml-auto">
