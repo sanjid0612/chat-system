@@ -33,8 +33,8 @@ const Button: FC<buttonProps> = ({
     <button
       type={btnType}
       onClick={actionCb}
-      className={`w-full font-medium flex justify-center items-center ${
-        icon ? "px-0 py-0 w-auto" : ""
+      className={`w-auto font-medium flex justify-center items-center ${
+        icon ? "px-0 py-0" : ""
       } ${suffixIcon ? "flex gap-x-2" : ""} ${
         prefixIcon ? "flex gap-x-2" : ""
       } ${

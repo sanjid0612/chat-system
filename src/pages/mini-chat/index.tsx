@@ -29,7 +29,7 @@ const MiniChatPage = () => {
         </div>
       </div>
       {/* mini chat header ends */}
-      <div className="flex w-full flex-col justify-start gap-y-[50px] pt-6 pl-3 pr-6 pb-1">
+      <div className="flex w-full flex-col justify-start gap-y-[50px] pt-6 pl-3 pr-6 pb-2">
         <CommonProfile
           name="Martha Craig"
           details="You’re friends on Facebook"
@@ -67,21 +67,21 @@ const MiniChatPage = () => {
         </div>
       </div>
       {/* mini chat body ends  */}
-      <div className="flex flex-row justify-start gap-x-4 pl-4 pr-[13px]">
+      <div className="flex flex-row justify-start gap-x-4 pt-2.5 pb-[30px] pl-4 pr-[13px]">
         <Button
-          icon="fas fa-file text-red-400 text-[18px] mr-[3px]"
+          icon="fas fa-file text-red-400 text-[24px] "
           actionCb={() => {}}
         />
         <Button
-          icon="fas fa-camera text-red-400 text-[18px] mr-[3px]"
+          icon="fas fa-camera text-red-400 text-[24px] mr-1"
           actionCb={() => {}}
         />
         <Button
-          icon="fas fa-image text-red-400 text-[18px] mr-[3px]"
+          icon="fas fa-image text-red-400 text-[21px] mr-2"
           actionCb={() => {}}
         />
         <Button
-          icon="fas fa-microphone text-red-400 text-[18px] mr-[3px]"
+          icon="fas fa-microphone text-red-400 text-[23px]"
           actionCb={() => {}}
         />
         <TextField
@@ -91,7 +91,7 @@ const MiniChatPage = () => {
           suffixIcon="fa-sharp fa-solid fa-face-smile"
         />
         <Button
-          icon="fas fa-thumbs-up text-red-400 text-[18px] mr-[3px]"
+          icon="fas fa-thumbs-up text-red-400 text-[24px]"
           actionCb={() => {}}
         />
       </div>
