@@ -26,7 +26,7 @@ const Call: FC<callProps> = ({
           actionCb={closeCb}
         />
       </div>
-      <div className={`pt-6 pb-4 ${groupClass}`}>{children}</div>
+      <div className={`w-full pt-6 pb-4 ${groupClass}`}>{children}</div>
       <div className="py-[74px] w-full flex justify-center items-center gap-x-[58px]">
         <div className="h-16 w-16 rounded-full flex justify-center items-center bg-gray">
           <Button
