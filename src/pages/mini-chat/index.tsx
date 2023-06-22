@@ -40,7 +40,7 @@ const MiniChatPage = () => {
         />
         <div className="flex w-full flex-col justify-start gap-y-10">
           <div className="text-right flex ml-auto flex-row justify-start gap-x-1 ">
-            <p className="bgAsh rounded-[18px] rounded-br-[4px] pr-[11px] pl-1.5 py-[7px]">
+            <p className="bg-ash-400 rounded-[18px] rounded-br-[4px] pr-[11px] pl-1.5 py-[7px]">
               Shahriar Hossain
             </p>
             <i className="mt-auto far fa-check-circle text-[8px] text-[#004cff]"></i>
@@ -56,10 +56,10 @@ const MiniChatPage = () => {
               />
             </div>
             <div className="flex flex-col justify-start items-start gap-0.5">
-              <p className="bgAsh rounded-[18px] rounded-bl-[4px] pl-[11px] pr-1.5 py-[7px]">
+              <p className="bg-ash-400 rounded-[18px] rounded-bl-[4px] pl-[11px] pr-1.5 py-[7px]">
                 Hello, Jacob!
               </p>
-              <p className="bgAsh rounded-[18px] rounded-tl-[4px] pl-[11px] pr-1.5 py-[7px]">
+              <p className="bg-ash-400 rounded-[18px] rounded-tl-[4px] pl-[11px] pr-1.5 py-[7px]">
                 How are you doing?
               </p>
             </div>

@@ -7,7 +7,7 @@ type buttonProps = {
   icon?: string;
   suffixIcon?: string;
   prefixIcon?: string;
-  variant?: "primary" | "outlined" | "gray" | "naked" | "link";
+  variant?: "outlined" | "naked";
 } & (
   | {
       btnType?: "reset" | "button";
@@ -40,16 +40,10 @@ const Button: FC<buttonProps> = ({
       } ${
         btnText ? "text-[18px] leading-[27px] text-center py-[26px] px-7" : ""
       } ${
-        variant === "primary"
-          ? "bg-green-400 text-white"
-          : variant === "outlined"
+        variant === "outlined"
           ? "bg-white text-black-primary border border-black-primary"
-          : variant === "gray"
-          ? "text-gray border-gray border bg-white"
           : variant === "naked"
           ? "text-gray bg-white"
-          : variant === "link"
-          ? "text-gray bg-white underline"
           : ""
       } ${btnClass}`}
     >

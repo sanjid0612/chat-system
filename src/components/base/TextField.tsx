@@ -93,7 +93,7 @@ const TextField: FC<inputProps> = ({
             placeholder={placeholder}
             value={value}
             id={identifier}
-            className={`w-full bgAsh rounded-full py-2 text-[17px] leading-5 ${
+            className={`w-full bg-ash-400 rounded-full py-2 text-[17px] leading-5 ${
               prefixIcon ? "pl-[52px]" : "pl-3.5"
             } pr-1.5 relative z-10 ${inputClass} `}
           />
