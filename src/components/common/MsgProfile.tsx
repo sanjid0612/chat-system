@@ -34,7 +34,7 @@ const MsgProfile: FC<MsgProfileProps> = ({
           </span>
         </div>
         <div className="flex flex-row justify-between gap-x-1.5 ">
-          <p className="text-[14px] font-poppins font-normal text-gray leading-[21px]">
+          <p className="text-[14px] font-poppins font-normal text-[#474B54] leading-[21px]">
             {lastMsg}
           </p>
           {totalMsg && (

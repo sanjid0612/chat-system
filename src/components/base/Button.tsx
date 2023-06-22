@@ -33,7 +33,7 @@ const Button: FC<buttonProps> = ({
     <button
       type={btnType}
       onClick={actionCb}
-      className={`w-auto font-medium flex justify-center items-center ${
+      className={`font-medium flex justify-center items-center ${
         icon ? "px-0 py-0" : ""
       } ${suffixIcon ? "flex gap-x-2" : ""} ${
         prefixIcon ? "flex gap-x-2" : ""
@@ -41,7 +41,7 @@ const Button: FC<buttonProps> = ({
         btnText ? "text-[18px] leading-[27px] text-center py-[26px] px-7" : ""
       } ${
         variant === "outlined"
-          ? "bg-white text-black-primary border border-black-primary"
+          ? "bg-white border-2 rounded-full h-10 w-10 border-red-400"
           : variant === "naked"
           ? "text-gray bg-white"
           : ""

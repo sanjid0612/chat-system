@@ -1,18 +1,16 @@
 import React from "react";
-import CommonProfile from "./CommonProfile";
-import Call from "../base/Call";
 import Image from "next/image";
+import Chat from "../base/Chat";
 
 const VideoCall = () => {
   return (
-    <Call
+    <Chat
       title="Calling...."
       closeCb={() => {}}
       callEndCb={() => {}}
       hasCallBtn={true}
-      groupClass="pr-[89px]"
     >
-      <div className="flex flex-row justify-end gap-x-8 ml-auto">
+      <div className="w-full h-full flex flex-row justify-end gap-x-8 ml-auto pt-6 pb-4 pr-[89px]">
         <div className="h-[681px] w-[694px] rounded-[20px] overflow-hidden relative">
           <Image
             fill
@@ -32,7 +30,7 @@ const VideoCall = () => {
           />
         </div>
       </div>
-    </Call>
+    </Chat>
   );
 };
 

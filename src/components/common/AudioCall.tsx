@@ -1,25 +1,26 @@
 import React from "react";
 import CommonProfile from "./CommonProfile";
-import Call from "../base/Call";
+import Chat from "../base/Chat";
 
 const AudioCall = () => {
   return (
-    <Call
+    <Chat
       title="Calling...."
       closeCb={() => {}}
       callEndCb={() => {}}
       hasCallBtn={true}
-      groupClass="!pt-[151px] !pb-[384px]"
     >
-      <CommonProfile
-        name="Ijafiya Nafa"
-        imgClass="!h-[112px] !w-[112px]"
-        groupClass="flex-col !gap-4"
-        nameClass="text-[18px] font-medium"
-        details="calling......"
-        detailClass="text-red-400 mt-1.5"
-      />
-    </Call>
+      <div className="w-full pt-[151px] pb-[384px] h-full">
+        <CommonProfile
+          name="Ijafiya Nafa"
+          imgClass="!h-[112px] !w-[112px]"
+          groupClass="flex-col !gap-4"
+          nameClass="text-[18px] font-medium"
+          details="calling......"
+          detailClass="text-red-400 mt-1.5"
+        />
+      </div>
+    </Chat>
   );
 };
 

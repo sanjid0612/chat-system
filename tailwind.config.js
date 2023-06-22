@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["var(--poppins)"],
+        inter: ["var(--inter)"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -23,11 +24,11 @@ module.exports = {
       ash: {
         300: "#F5F5F5",
         400: "#EEEEEE",
+        500: "#999999",
       },
       red: {
         300: "#FFE5E5",
         400: "#850E10",
-        500: "#999999",
       },
     },
   },
