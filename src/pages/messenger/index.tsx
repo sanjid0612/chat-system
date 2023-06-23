@@ -39,7 +39,7 @@ const MessengerPage = () => {
         </div>
         {/* chat side bar ends  */}
         <div className="w-[68%] flex flex-col justify-start pl-9 pr-11">
-          <div className="flex flex-row justify-between pb-2 border-b border-gray ml-[17px]">
+          <div className="flex flex-row justify-between pb-2 border-b border-gray ml-4">
             <CommonProfile name="Martha Craig" imgClass="!h-[46px] !w-[46px]" />
             <div className="flex flex-row justify-center items-center gap-x-[42px]">
               <Button
@@ -61,7 +61,7 @@ const MessengerPage = () => {
             </div>
           </div>
           {/* header section ends  */}
-          <div className="pr-[100px] pt-16 pl-[17px]">
+          <div className="flex flex-col justify-start gap-y-[22px] pr-[100px] pt-16 pl-4">
             <div className="flex flex-col gap-y-2.5">
               <div className="flex flex-row justify-start gap-x-3">
                 <div className="h-9 w-9 rounded-full overflow-hidden relative">
@@ -74,7 +74,7 @@ const MessengerPage = () => {
                   />
                 </div>
                 {/* profile ends  */}
-                <div className="w-full flex flex-row justify-start border border-ash-400 rounded-[20px] rounded-tl-none pl-6 pt-10 pb-6 ">
+                <div className="w-[600px] flex flex-row justify-start border border-ash-400 rounded-[20px] rounded-tl-none pl-6 pt-10 pb-6 ">
                   <span className="border h-auto rounded-full border-red-400"></span>
                   <div className="flex flex-col justify-start gap-y-2 pl-3 pb-5">
                     <p className="font-inter font-normal text-[14px] leading-4 text-black">
@@ -102,28 +102,31 @@ const MessengerPage = () => {
               </span>
             </div>
             {/* message 01 ends */}
-            <div className="flex flex-col gap-y-2.5">
-              <div className="flex flex-row justify-start gap-x-[50px]">
-                <div className="h-9 w-9 rounded-full overflow-hidden relative">
-                  <Image
-                    fill
-                    src={
-                      "https://images.unsplash.com/photo-1504276048855-f3d60e69632f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-                    }
-                    alt="image"
-                  />
-                </div>
-                {/* profile ends  */}
-                <div className="w-full border border-ash-400 rounded-[20px] rounded-tl-none pl-[30px] py-[30px] text-[16px] leading-6 font-poppins font- normal text-[#B5BFD6]">
+            <div className="flex flex-row justify-start gap-x-[50px]">
+              <div className="h-9 w-9 rounded-full overflow-hidden relative">
+                <Image
+                  fill
+                  src={
+                    "https://images.unsplash.com/photo-1504276048855-f3d60e69632f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                  }
+                  alt="image"
+                />
+              </div>
+              {/* profile ends  */}
+              <div className="flex flex-col gap-y-2.5">
+                <div className="w-[501px] border border-ash-400 rounded-[20px] rounded-tl-none pl-[30px] py-[30px] text-[16px] leading-6 font-poppins font- normal text-[#B5BFD6]">
                   Check this out
                 </div>
-                {/* msg box ends */}
+                <span className="text-right text-[14px] leading-5 font-poppins font-normal text-[#B5BFD6] mr-16">
+                  01:51 PM
+                </span>
               </div>
-              <span className="text-right text-[14px] leading-5 font-poppins font-normal text-[#B5BFD6] mr-16">
-                01:51 PM
-              </span>
+              {/* msg box ends */}
             </div>
             {/* message 02 ends  */}
+            <div className="mt-[38px] w-[284px] pt-9 pb-3 px-5 flex justify-between bg-red-400 rounded-2xl rounded-br-none ml-auto">
+              <i className="fas fa-pause-circle text-white text-[28px] ml-auto"></i>
+            </div>
           </div>
           <div className="mt-auto pr-[100px] ">
             <MsgTypingArea />
