@@ -129,7 +129,25 @@ const MessengerPage = () => {
             </div>
           </div>
           <div className="mt-auto pr-[100px] ">
-            <MsgTypingArea />
+            {/* <MsgTypingArea /> */}
+            <div className="w-full flex flex-row justify-start gap-x-4 pt-2.5 pb-[30px] pl-4 pr-[13px]">
+              <Button
+                icon="fas fa-microphone text-red-400 text-[23px]"
+                actionCb={() => {}}
+              />
+              <div className="py-1.5 px-2 flex justify-between rounded-full w-full bg-red-400">
+                <div className="">
+                  <i className="fas fa-stop-circle text-[25px] text-white"></i>
+                </div>
+                <div className="w-[62px] flex justify-center items-center py-0.5 rounded-full bg-white text-[14px] leading-5 font-poppins font-medium ">
+                  0:45
+                </div>
+              </div>
+              <Button
+                icon="fas fa-location-arrow text-black rotate-[45deg] text-[24px]"
+                actionCb={() => {}}
+              />
+            </div>
           </div>
         </div>
       </div>

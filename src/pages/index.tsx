@@ -25,7 +25,7 @@ export default function Home() {
           viewBtn: {
             label: "view profile",
             actionCb: () => {
-              router.push("/admin/dummyUserId/admin/details");
+              router.push("");
             },
           },
           editBtn: {

@@ -10,7 +10,7 @@ const Header = () => {
       <div className="">
         <button
           type="button"
-          className="w-[55px] h-[55px] rounded-full bg-red-300"
+          className="w-[55px] h-[55px] rounded-full bg-red-200"
         >
           <i className="fa-regular fa-comment-dots text-red-400 text-[32px]"></i>
         </button>
